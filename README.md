@@ -1,4 +1,4 @@
-# jpop_lyrics_scraper
+# jpop lyrics scraper
 
 WELCOME TO JPOP LYRICS SCRAPER!
 
