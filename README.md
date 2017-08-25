@@ -34,6 +34,8 @@ WHAT TO INSTALL TO RUN THIS SCRIPT
 1. Python 3
 2. These libraries: requests, bs4, openpyxl, re, smtplib, selenium, difflib, email
 3. PhantomJS headless browser for selenium webdriver
+4. Turn on allowance for less secure apps at https://myaccount.google.com/lesssecureapps (this allows python to send emails from gmail)
+
 
 ---------------------------------------------------------------------------------------------------------------
 
