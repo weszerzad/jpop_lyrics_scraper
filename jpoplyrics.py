@@ -175,7 +175,7 @@ except FileNotFoundError: #If there is no database, create one
 print('\n\n---------------------------------------------------------------------------------------------------------------\n\n')
 
 print('Finally, please log in to your gmail account to send these lyrics and translations to an email of your choice. Each e-mail contains a lyric and a translation of a song.\nAll of the following information, including your gmail password, will not be saved and sent anywhere.')
-sender = input('Please enter your gmail address: ')
+sender = input('Please enter your gmail address (Before entering, please turn on allowance for less secure apps at https://myaccount.google.com/lesssecureapps): ')
 password = input('Please enter your password (again, it will not be saved and sent anywhere): ')
 to = input('Please enter a recipient email: ')
 smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
